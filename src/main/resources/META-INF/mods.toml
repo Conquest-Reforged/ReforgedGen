@@ -1,0 +1,15 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+[[mods]]
+modId="reforged_gen"
+displayName="ReforgedGen"
+version="${version}"
+authors="dags"
+credits="dags"
+description="Test"
+
+[[dependencies.terraforged]]
+    modId="terraforged"
+    mandatory=true
+    versionRange="[1.5.2-0.0.3,)"
+    side="SERVER"
