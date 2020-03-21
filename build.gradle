@@ -27,7 +27,8 @@ repositories {
 
 dependencies {
     minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
-    compile fg.deobf("curse.maven:terraforged:2902024")
+    compile fg.deobf("curse.maven:terraforged:2907101")
+    compile "org.processing:core:3.3.7"
 }
 
 minecraft {
